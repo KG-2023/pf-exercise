@@ -1,0 +1,8 @@
+/* 
+CSS SPECIFICITY > WHICH CODE WILL BE GIVEN IMPORTANCE
+1. ORDER
+*/
+body{   
+    background-color: orangered;
+    font-family: 'Poppins', sans-serif;
+} 
