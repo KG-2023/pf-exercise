@@ -16,31 +16,6 @@ body{
     /* background-color: orangered; */
     font-family: 'Poppins', sans-serif;
 } 
-/* 
-header{
-    background-color: green;
-}
-
-
-
-h1{
-    display: inline-block; 
-   background-color: pink;
-    color: red;
-    padding: 20px;   
-    height: 100px;
-    width: 200px;
-    
-}
-
-ul{
-    background-color: brown; 
-}
-
-li {
-    background-color: lightgoldenrodyellow;
-} */
-
 /* CUSTOM CLASSNAME SELECTORS*/
 
 /****************************************************HEADER SECTION****************************/
@@ -52,15 +27,6 @@ li {
   background-size: cover;
 }
 
-/*
-examples: 
-space 
-child selector 
-adjacent sibling 
-general sibling
-
-
-*/
 
 .header__nav{
     display: flex;
@@ -69,15 +35,10 @@ general sibling
     padding: 3% 7%;
 }
 
-/* .header__nav ul{
-    float: right;
-} */
 
 .header__nav ul li{
-    /* background-color: orangered; */
     display: inline-block;
     margin: 10px 20px;
-    
 }
 
 .header__nav ul li a{
