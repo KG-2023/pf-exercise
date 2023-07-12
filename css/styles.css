@@ -29,6 +29,7 @@ a{
   background-image: linear-gradient(rgba(3,4,7, 0.48), rgba(5, 10, 30, 0.48)),
   url('../images/pexels-royal-anwar-450214.jpg');
   background-size: cover;
+  background-position: center;
 }
 
 .header__brand{
@@ -68,6 +69,11 @@ a{
     left: 50%;
     transform: translate(-50%, -50%);
     color: #fff;
+}
+
+.header__heading--h1{
+    font-size: 70px;
+    margin-top: 10px;
 }
 
 /****************************************************ABOUT SECTION****************************/
