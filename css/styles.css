@@ -103,7 +103,8 @@ a{
 /****************************************************PORTFOLIO SECTION****************************/
 
 .portfolio{
-    height: 100vh;
+    /* height: 180vh; 1024 x 728 */
+    height: 200vh;
     padding: 50px;
     text-align: center;
     color: #362D2D;
@@ -134,10 +135,18 @@ a{
     border-radius: 10px;
 
 }
-/*
-.portfolio__btn{
 
-} */
+.portfolio__btn{
+  background-color: #45893A;
+  color: #fff;
+  height: 75px;
+  width: 303px;
+  padding: 2% 5%;
+  border-radius: 10px;
+  font-weight: 700;
+  letter-spacing: 3px;
+  
+} 
 /****************************************************CONTACT SECTION****************************/
 
 /****************************************************FOOTER SECTION****************************/
