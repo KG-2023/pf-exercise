@@ -155,6 +155,22 @@ a{
     background-color:#3E3C3C;
     padding: 5%;
 }
+
+.contact__row{
+  display: flex;
+  flex-direction: row;
+}
+
+.contact__row--left{
+    background-color: green;
+    
+}
+
+.contact__row--right{
+    background-color: blue;
+    
+
+}
 /****************************************************FOOTER SECTION****************************/
 
 
