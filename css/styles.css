@@ -164,7 +164,7 @@ a{
 
 .contact__row--left{
     /* background-color: green;   */
-    flex-basis: 35%;
+    flex-basis: 45%;
 }
 
 .contact__heading--h2{
@@ -233,6 +233,18 @@ form input, form textarea {
 form input:hover, form textarea:hover {
     outline-style: solid;
     outline-color: red;
+}
+
+.contact__btn.contact__btn--2{
+    display: inline-block;
+    background-color: #312D2D;
+    font-size: 18px;
+    margin: 0;
+}
+
+.contact__btn--2:hover{
+    background-color: #2ecc71;
+    cursor: pointer;
 }
 
 
