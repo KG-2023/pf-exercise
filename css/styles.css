@@ -3,6 +3,7 @@ CSS SPECIFICITY > WHICH CODE WILL BE GIVEN IMPORTANCE
 1. ORDER
 2. Embedded vs External Stylesheet (Embedded wins)
 3. Inline styles will have higher priority over embedded and external links
+4. !important
 */
 
 *{
@@ -53,7 +54,7 @@ a{
     justify-content: space-between;
     padding: 3% 7%;
     /* background-color: rgba(36, 35, 35, 0.376); */
-    background-color: var(--background-overlay);
+    /* background-color: var(--background-overlay); */
 }
 
 
