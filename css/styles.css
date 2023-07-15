@@ -211,7 +211,7 @@ a{
 }
 
 .contact__row--right{
-    background-color: blue;
+    /* background-color: blue; */
     flex-basis: 60%;
 }
 
@@ -219,12 +219,23 @@ a{
     width: 100%;
 }
 
-
-
 form input, form textarea {
-   
     width: 100%;
+   outline:none;
+    background: #312D2D;
+    border: 6px;
+    color: #fff;
+    font-size: 18px;
+    padding: 15px;
+    margin: 15px 0;
 }
+
+form input:hover, form textarea:hover {
+    outline-style: solid;
+    outline-color: red;
+}
+
+
 
 /****************************************************FOOTER SECTION****************************/
 
