@@ -158,7 +158,8 @@ a{
 
 .contact__row{
   display: flex;
-  flex-direction: row;
+/*  flex-direction: row; */
+  /* flex-wrap: wrap; */
 }
 
 .contact__row--left{
@@ -209,14 +210,22 @@ a{
     display:inline-block;
 }
 
-
-
-
-
 .contact__row--right{
     background-color: blue;
-    
+    flex-basis: 60%;
 }
+
+.contact__row--right form{
+    width: 100%;
+}
+
+
+
+form input, form textarea {
+   
+    width: 100%;
+}
+
 /****************************************************FOOTER SECTION****************************/
 
 
