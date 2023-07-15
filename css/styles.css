@@ -68,6 +68,11 @@ a{
   font-size: 18px;
 }
 
+.header__image--sm{
+    /* visibility: hidden;  */
+    display: none;
+}
+
 .header__heading{
    position: absolute;
     /* background-color: green; */
@@ -279,7 +284,18 @@ footer{
     }
 
     .header__image--sm{
-        
+        display: block;
+    }
+
+    .header__image--sm img{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        height: 200px;
+        width: 200px;
+        border-radius: 50%;
+        object-fit: cover;
     }
 }
 /* 
