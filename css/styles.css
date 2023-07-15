@@ -181,6 +181,7 @@ a{
 
 .contact__row--left p i{
     color: #20E700;
+    margin-right: 10px;
 }
 
 .contact__left--icons a{
@@ -251,4 +252,13 @@ form input:hover, form textarea:hover {
 
 /****************************************************FOOTER SECTION****************************/
 
+footer{
+    height: 15vh;
+    width: 100%;
+    text-align: center;
+    padding: 3% 0;
+    background-color: #171515;
+    font-weight: 400;
+    color: #fff;
 
+}
