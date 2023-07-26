@@ -462,9 +462,12 @@ footer {
         width: 70%;
         height: 280px;
         margin: 0 auto 5%;
+        transition: 1s;
+        
 
     }
 
+   
     .portfolio__img:last-child {
         margin-bottom: 10%;
     }
